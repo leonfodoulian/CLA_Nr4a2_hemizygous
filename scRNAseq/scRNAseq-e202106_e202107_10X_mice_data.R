@@ -1,0 +1,27 @@
+# Mice data
+mice.data <- data.frame(mouse = c("1106", "1108", "1109", "1099",
+                                  "1104", "1103", "1096",
+                                  "1091", "1093", "1090",
+                                  "1113", "1110", "1105"),
+                        gender = rep(x = c("male", "female", "male", "female"),
+                                     times = c(4, 3, 3, 3)),
+                        genotype = c("Nr4a2(SA-IRES-Dre/WT)", "Nr4a2(SA-IRES-Dre/WT)", "Nr4a2(WT/WT)", "Nr4a2(WT/WT)",
+                                     "Nr4a2(WT/WT)", "Nr4a2(SA-IRES-Dre/WT)", "Nr4a2(SA-IRES-Dre/WT)",
+                                     "Nr4a2(SA-IRES-Dre/WT)", "Nr4a2(WT/WT)", "Nr4a2(SA-IRES-Dre/WT)",
+                                     "Nr4a2(WT/WT)", "Nr4a2(SA-IRES-Dre/WT)", "Nr4a2(SA-IRES-Dre/WT)"),
+                        DOB = rep(x = "20210405",
+                                  times = 13),
+                        DOD = rep(x = c("20210604", "20210611", "20210719", "20210720"),
+                                  times = c(4, 3, 3, 3)),
+                        age = rep(x = c("PND60", "PND67", "PND105", "PND106"),
+                                  times = c(4, 3, 3, 3)),
+                        sorted_cells = c("15000", "11000", "15000", "15000",
+                                         "25000", "15000", "11800",
+                                         "20000", "20000", "18600",
+                                         "15200", "20000", "15700"),
+                        targeted_cell_recovery = c("7000", "6000", "7000", "7000",
+                                                   "10000", "8000", "6000",
+                                                   "10000", "10000", "10000",
+                                                   "8000", "10000", "8000"))
+rownames(x = mice.data) <- mice.data$mouse
+mice.data <- as.matrix(x = mice.data)
