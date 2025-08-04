@@ -1,0 +1,8 @@
+13	IRLAB	gene	56750044	56753827	.	-	.	gene_id "Smim32"; gene_name "Smim32";
+13	IRLAB	transcript	56750044	56753827	.	-	.	gene_id "Smim32"; transcript_id "NM_001378296.1"; gene_name "Smim32";
+13	IRLAB	exon	56750044	56753827	.	-	.	gene_id "Smim32"; transcript_id "NM_001378296.1"; exon_number "1"; gene_name "Smim32"; exon_id "Smim32.1";
+13	IRLAB	3UTR	56750044	56752979	.	-	.	gene_id "Smim32"; transcript_id "NM_001378296.1"; exon_number "1"; gene_name "Smim32"; exon_id "Smim32.1";
+13	IRLAB	stop_codon	56752980	56752982	.	-	0	gene_id "Smim32"; transcript_id "NM_001378296.1"; exon_number "1"; gene_name "Smim32"; exon_id "Smim32.1";
+13	IRLAB	CDS	56752983	56753291	.	-	0	gene_id "Smim32"; transcript_id "NM_001378296.1"; exon_number "1"; gene_name "Smim32"; exon_id "Smim32.1";
+13	IRLAB	start_codon	56753289	56753291	.	-	0	gene_id "Smim32"; transcript_id "NM_001378296.1"; exon_number "1"; gene_name "Smim32"; exon_id "Smim32.1";
+13	IRLAB	5UTR	56753292	56753827	.	-	.	gene_id "Smim32"; transcript_id "NM_001378296.1"; exon_number "1"; gene_name "Smim32"; exon_id "Smim32.1";
